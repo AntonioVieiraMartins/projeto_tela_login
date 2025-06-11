@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*#49a09d; #5f2c82*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f2c82;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#tela {
+    width: 250px;
+    height: 515px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+}
+
+#foto {
+    background-image: url(../imagens/metal.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+#formu {
+    text-align: center;
+    padding: 10px;
+}
+
+#formu h1 {
+    margin-bottom: 10px;
+}
+
+#formu p {
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.campo {
+    margin: 5px 0px;
+    border: 2px solid #5f2c82;
+    background-color: #5f2c82;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.campo i {
+    color: white;
+    width: 40px;
+    font-size: 1.9em;
+    padding: 5px;
+}
+
+.campo input {
+    width: calc(100% - 45px);
+    height: 100%;
+    border-radius: 5px;
+    background-color: #94cfcd;
+    transform: translateY(-12.8px);
+    border: none;
+}
+
+.campo input:focus {
+    background-color: white;
+}
+
+.campo label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    width: 100%;
+    background-color: #53aaa7;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2d6462;
+}
+
+#formu a {
+    display: block;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    height: 40px;
+    text-decoration: none;
+    color: #2d6462;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+#formu a:hover {
+    background-color:rgb(108, 211, 207);
+}
+
+#formu a i {
+    font-size: 1em;
+}
